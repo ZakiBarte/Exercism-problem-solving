@@ -8,7 +8,13 @@ If you get stuck on the exercise, check out `HINTS.md`, but try and solve it wit
 
 JavaScript is a dynamic language, supporting object-oriented, imperative, and declarative (e.g. functional programming) styles.
 
-## Variables
+## Variables and organizations have various style guides.
+_Feel free to write variables any way you like_.
+The upside from writing them the way the exercises are prepared is that they'll be highlighted differently in the web interface and most IDEs.
+
+Variables in JavaScript can be defined using the [`const`][mdn-const], [`let`][mdn-let] or [`var`][mdn-var] keyword.
+
+A variable can reference different values over its lifetime when using `le
 
 There are a few primary ways to assign values to names in JavaScript - using variables or constants.
 On Exercism, variables are always written in [camelCase][wiki-camel-case]; constants are written in [SCREAMING_SNAKE_CASE][wiki-snake-case].
